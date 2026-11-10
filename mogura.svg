@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Fondo: verde azulado de la marca -->
+  <rect width="512" height="512" rx="112" fill="#0f766e"/>
+  <!-- Base de datos: tres discos apilados, como montículo de tierra -->
+  <ellipse cx="256" cy="420" rx="170" ry="44" fill="#134e4a"/>
+  <path d="M86 360v60c0 24 76 44 170 44s170-20 170-44v-60" fill="#115e59"/>
+  <ellipse cx="256" cy="360" rx="170" ry="44" fill="#14b8a6"/>
+  <!-- Topo asomándose -->
+  <path d="M136 362c0-110 54-200 120-200s120 90 120 200c-32 14-74 22-120 22s-88-8-120-22z" fill="#4b3a33"/>
+  <ellipse cx="256" cy="300" rx="78" ry="62" fill="#6b5148"/>
+  <circle cx="214" cy="250" r="12" fill="#f5f5f4"/>
+  <circle cx="298" cy="250" r="12" fill="#f5f5f4"/>
+  <circle cx="216" cy="252" r="6" fill="#1c1917"/>
+  <circle cx="300" cy="252" r="6" fill="#1c1917"/>
+  <ellipse cx="256" cy="296" rx="26" ry="20" fill="#f9a8d4"/>
+  <!-- Patas -->
+  <ellipse cx="170" cy="362" rx="38" ry="20" fill="#f9a8d4"/>
+  <ellipse cx="342" cy="362" rx="38" ry="20" fill="#f9a8d4"/>
+</svg>
