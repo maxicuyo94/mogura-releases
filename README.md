@@ -6,11 +6,12 @@
 
 **by Maxi Mendez**
 
-Administrador de bases de datos para Windows: liviano, rápido y en español.<br>
+Administrador de bases de datos para Windows (y macOS en beta): liviano, rápido y en español.<br>
 SQL Server y Azure SQL, PostgreSQL, MySQL y SQLite, en una sola app.
 
 [![Última versión](https://img.shields.io/github/v/release/maxicuyo94/mogura-releases?label=versi%C3%B3n&color=0f766e)](https://github.com/maxicuyo94/mogura-releases/releases/latest)
 ![Windows 10 y 11](https://img.shields.io/badge/Windows-10%20y%2011-0f766e?logo=windows)
+![macOS beta](https://img.shields.io/badge/macOS-beta-b45309?logo=apple)
 ![Instalador de unos 7 MB](https://img.shields.io/badge/instalador-~7%20MB-0f766e)
 
 ### [⬇&nbsp; Descargar Mogura](https://github.com/maxicuyo94/mogura-releases/releases/latest)
@@ -149,10 +150,28 @@ Mirá cómo va a resolver la base tu consulta sin ejecutarla: cada operación co
 
 ## Instalar
 
+### Windows
+
 1. Bajá `Mogura_X.Y.Z_x64-setup.exe` de la [última versión](https://github.com/maxicuyo94/mogura-releases/releases/latest).
 2. Ejecutalo. No hace falta ser administrador.
 
-Funciona en Windows 10 y 11 de 64 bits. Para el asistente de IA hace falta tener instalado [Claude Code](https://claude.com/claude-code), con tu cuenta de Claude.
+Funciona en Windows 10 y 11 de 64 bits.
+
+### macOS (beta)
+
+> [!WARNING]
+> **Es una beta.** La versión de Mac se compila desde el mismo código, pero todavía no se probó a fondo en una Mac: puede tener errores que en Windows no están. Si encontrás uno, avisame.
+
+1. Bajá `Mogura_X.Y.Z_aarch64.dmg` de la [última versión](https://github.com/maxicuyo94/mogura-releases/releases/latest). Es para Mac con Apple Silicon (M1 en adelante).
+2. Abrilo y arrastrá Mogura a Aplicaciones.
+3. No tiene la firma de Apple, así que macOS dice que es de un desarrollador no identificado. La primera vez, en la Terminal:
+   ```
+   xattr -dr com.apple.quarantine /Applications/Mogura.app
+   ```
+
+En Mac todavía no se actualiza sola: para una versión nueva, bajá el `.dmg` otra vez. En lugar de Windows Hello, para habilitar la escritura en producción usa Touch ID (o la contraseña de la Mac).
+
+Para el asistente de IA hace falta tener instalado [Claude Code](https://claude.com/claude-code), con tu cuenta de Claude.
 
 <br>
 
